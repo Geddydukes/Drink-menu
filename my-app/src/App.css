@@ -1,0 +1,127 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #69c9b4;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.header {
+  font-family: "Dancing Script", cursive;
+}
+
+.header:hover {
+  transform: scale(1.5);
+  transition: linear 0.3s;
+}
+
+.App {
+  text-align: center;
+  color: aliceblue;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #cf4dcf;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.drinks {
+  height: 50vh;
+  width: 70vw;
+  background-color: white;
+  display: flex;
+  border: black 1px solid;
+  color: white;
+  margin-top: 5vh;
+}
+
+.pinkLemonade {
+  background: url("https://images.getbento.com/accounts/b1fe1ce2fbecab77bc8ad01d7d82e4e1/media/images/61875banner_82.jpg?w=1200&fit=crop&auto=compress,format&h=600")
+    repeat center center;
+  display: block;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.bayBreeze {
+  background: url("https://www.phillymag.com/wp-content/uploads/sites/3/2020/07/spritz-cocktail-philadelphia-jet-wine-bar-garden-new.jpg")
+    repeat center center;
+  display: block;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.caipiroska {
+  background: url("https://better.net/sf-bay-area/wp-content/uploads/sites/3/2020/05/kobby-mendez-xBFTjrMIC0c-unsplash-770x433.jpg")
+    repeat center center;
+  display: block;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.longIsland {
+  background: url("https://www.wideopeneats.com/wp-content/uploads/2017/09/Texas-Tea-Cocktail.jpg") repeat center center;
+  margin-bottom: 5vh;
+  display: block;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.longIsland p {
+  max-width: 300px;
+}
+
+.pinkLemonade p {
+  width: 300px;
+}
+
+.caipiroska p {
+  max-width: 300px;
+}
+
+.bayBreeze p {
+  width: 300px;
+}
+
+.drinks p:hover {
+  transform: scale(1.1);
+  transition: linear 0.3s;
+  color: rgb(32, 106, 218);
+}
+
+.drinks h4:hover {
+  transform: scale(1.1);
+  transition: linear 0.3s;
+  color: rgb(32, 106, 218);
+  max-width: 300px;
+}
